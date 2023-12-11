@@ -1,6 +1,5 @@
 total_sum = 0
 count = 0
-
 for num in range(2, 51, 2):
     if num % 3 == 0:
         print("Three")
@@ -13,6 +12,5 @@ for num in range(2, 51, 2):
     else:
         print(num)
         total_sum += num
-
 print("Total Sum:", total_sum)
 print("Replaced Count:", count)
